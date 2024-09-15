@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-form">
+        <form class="search">
+            <input class="search-line" placeholder="Введите город...">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="main-information">
+            <h1 class="city">Город</h1>
+            <div class="datetime">дата время</div>
+            <div class="forecast">погода</div>
+            <div class="icon">картинка</div>
+            <p class="temperature">30&#176                
+            </p>
+            <div class="weather_minmax">
+                <p>Мин: 12&#176</p>
+                <p>Макс: 16&#176</p>
+            </div>
+        </div>
+        <div class="details">
+            <div class="weather_card">
+                <i class="fa-solid fa-temperature-full"></i>
+                <div>
+                    <p>Ощущается как</p>
+                    <p class="weather_realfeel">18&#176</p>
+                </div>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <p>Влажность</p>
+                    <p class="weather_humidity">18&#176</p>
+                </div>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <p>Ветер</p>
+                    <p class="weather_wind">18&#176</p>
+                </div>
+            </div>
+            <div class="weather_card">
+                <i class="fa-solid fa-gauge-high"></i>
+                <div>
+                    <p>Давление</p>
+                    <p class="weather_pressure">18&#176</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/a692e1c39f.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</html>
